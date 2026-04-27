@@ -1,0 +1,59 @@
+
+**** 11/19/24 16:48:00 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-ac_sweep"  [ C:\Cadence\p1_2-PSpiceFiles\SCHEMATIC1\ac_sweep.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ac_sweep.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\calin1q2w\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 10 1 1M
+-------------$
+ERROR(ORPSIM-16103): Invalid value
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source P1_2
+Q_Q2         N02613 N02609 N02699 BC846B 
+R_R2         N02609 N02545  220k TC=0,0 
+C_C3         N02653 N02665  10u  TC=0,0 
+C_C1         N02785 N02721  9.4u  TC=0,0 
+R_R10         N03009 N02653  1510k TC=0,0 
+R_R9         N02745 N03009  132k TC=0,0 
+V_V1         N02785 0  AC 0
++SIN 0 2.5mVac 1k 0 0 0
+R_R6         N02721 N02699  660k TC=0,0 
+R_R4         N02613 N02545  15.25k TC=0,0 
+C_C6         N03009 N02653  2.2n  TC=0,0 
+V_V2         N02545 0 18Vdc
+R_P1         0 N02665  25k TC=0,0 
+R_R1         0 N02785  40k TC=0,0 
+C_C4         0 N02699  14.7  TC=0,0 
+C_C2         N02613 N02653  9.4u  TC=0,0 
+Q_Q1         N02609 N02721 N02745 BC846B 
+R_R5         0 N02699  1k TC=0,0 
+C_C5         N02745 N03009  470p  TC=0,0 
+R_R3         0 N02745  1k TC=0,0 
+
+**** RESUMING ac_sweep.cir ****
+.END
+

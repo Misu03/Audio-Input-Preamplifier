@@ -1,0 +1,89 @@
+(ExpressProject "p1_2"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\p1_2.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\p1_2-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (Sort User)
+    (File "P1_2_CORE_ENG BILL OF MATERIALS.BOM"
+      (Type "Report")
+      (DisplayName "P1_2_CORE_ENG BILL OF MATERIALS.BOM")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\p1_2-pspicefiles\schematic1\psf.sim"
+        (DisplayName "SCHEMATIC1-psf")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\p1_2-pspicefiles\schematic1\ac_time.sim"
+        (DisplayName "SCHEMATIC1-ac_time")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\p1_2-pspicefiles\schematic1\ac_sweep.sim"
+        (DisplayName "SCHEMATIC1-ac_sweep")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\p1_2-pspicefiles\schematic1\ac_time.sim"))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\calin1q2w\Desktop\P1_2024_433A_Nuica_Mihai_Calin_PAI_N21_OrCAD\Schematics\p1_Nuica_Mihai_Calin_433A\p1_2.dsn")
+      (Path "Design Resources"
+         "C:\Users\calin1q2w\Desktop\P1_2024_433A_Nuica_Mihai_Calin_PAI_N21_OrCAD\Schematics\p1_Nuica_Mihai_Calin_433A\p1_2.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\Users\calin1q2w\Desktop\P1_2024_433A_Nuica_Mihai_Calin_PAI_N21_OrCAD\Schematics\p1_Nuica_Mihai_Calin_433A\p1_2.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 182 1818 182 641")
+        (Scroll "-585 -11")
+        (Zoom "135")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\CALIN1Q2W\DESKTOP\P1_2024_433A_NUICA_MIHAI_CALIN_PAI_N21_ORCAD\SCHEMATICS\P1_NUICA_MIHAI_CALIN_433A\P1_2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 2253 78 767"))
+      (Path
+         "C:\Users\calin1q2w\Desktop\P1_2024_433A_Nuica_Mihai_Calin_PAI_N21_OrCAD\Schematics\p1_Nuica_Mihai_Calin_433A\p1_2-PSpiceFiles\SCHEMATIC1\SCHEMATIC1.net")
+      (Scroll "0")))
+  (MPSSessionName "calin1q2w")
+  (ISPCBBASICLICENSE "false"))

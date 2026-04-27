@@ -1,0 +1,173 @@
+
+**** 11/21/24 18:47:54 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-psf"  [ C:\Users\calin1q2w\Desktop\P1_2024_433A_Nuica_Mihai_Calin_PAI_N21_OrCAD\Schematics\p1\p1_2-pspicefil
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "psf.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\calin1q2w\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source P1_2
+Q_Q2         N02613 N02691 N02699 BC846B 
+R_R2_1         N05952 N02545  68k TC=0,0 
+C_C3         N02653 N02665  10u  TC=0,0 
+C_C1_1         N02785 N02721  4.7u  TC=0,0 
+R_R10_1         N03013 N06547  1000k TC=0,0 
+R_R9_1         N02745 N06438  100k TC=0,0 
+V_V1         N02785 0  AC 2.5mVac
++SIN 0 2.5mVac 1k 0 0 0
+R_R6_1         N02721 N06266  330k TC=0,0 
+R_R4         N02613 N02545  15k TC=0,0 
+C_C6         N03013 N02653  2.2n  TC=0,0 
+V_V2         N02545 0 18Vdc
+R_P1_1         N06847 N02665  15k TC=0,0 
+R_R1_2         N05701 N05697  15k TC=0,0 
+C_C4_1         0 N02699  10u  TC=0,0 
+C_C2_1         N02613 N02653  4.7u  TC=0,0 
+Q_Q1         N02691 N02721 N02745 BC846B 
+R_R5         0 N02699  1k TC=0,0 
+C_C5         N02745 N03013  470p  TC=0,0 
+R_R3         0 N02745  1k TC=0,0 
+C_C2_2         N02613 N02653  4.7u  TC=0,0 
+C_C1_2         N02785 N02721  4.7u  TC=0,0 
+C_C4_2         0 N02699  4.7u  TC=0,0 
+R_R1_3         0 N05701  10k TC=0,0 
+R_R1_1         N05697 N02785  15k TC=0,0 
+R_R2_2         N02691 N05952  150k TC=0,0 
+R_R6_2         N06266 N02699  330k TC=0,0 
+R_R9_2         N06438 N03013  22k TC=0,0 
+R_R11_1         N06547 N02653  390k TC=0,0 
+R_P1_2         0 N06847  10k TC=0,0 
+
+**** RESUMING psf.cir ****
+.END
+
+**** 11/21/24 18:47:54 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-psf"  [ C:\Users\calin1q2w\Desktop\P1_2024_433A_Nuica_Mihai_Calin_PAI_N21_OrCAD\Schematics\p1\p1_2-pspicefil
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BC846B          
+               NPN             
+       LEVEL    1            
+          IS    7.049000E-15 
+          BF  279.1          
+          NF    1            
+         VAF   62.37         
+         IKF     .2201       
+         ISE   59.160000E-15 
+          NE    1.81         
+          BR    3.816        
+          NR    1            
+         IKR    1.859        
+         ISC   16.170000E-15 
+          NC    2.394        
+          NK     .6305       
+         ISS    0            
+          RE    0            
+          RC    1.508        
+         CJE    9.485000E-12 
+         VJE     .5          
+         MJE     .3333       
+         CJC    7.287000E-12 
+         VJC     .5          
+         MJC     .3333       
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          TF  664.000000E-12 
+         XTF  147            
+         VTF   10            
+         ITF    4.664        
+          TR   10.000000E-09 
+         XTB    1.5          
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 11/21/24 18:47:54 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-psf"  [ C:\Users\calin1q2w\Desktop\P1_2024_433A_Nuica_Mihai_Calin_PAI_N21_OrCAD\Schematics\p1\p1_2-pspicefil
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02545)   18.0000 (N02613)    5.2630 (N02653)     .0730 (N02665)    0.0000     
+
+(N02691)    1.5103 (N02699)     .8518 (N02721)     .6690 (N02745)     .0730     
+
+(N02785)    0.0000 (N03013)     .0730 (N05697)    0.0000 (N05701)    0.0000     
+
+(N05952)   12.8560 (N06266)     .7604 (N06438)     .0730 (N06547)     .0730     
+
+(N06847)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+    V_V2        -9.248E-04
+
+    TOTAL POWER DISSIPATION   1.66E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/21/24 18:47:54 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-psf"  [ C:\Users\calin1q2w\Desktop\P1_2024_433A_Nuica_Mihai_Calin_PAI_N21_OrCAD\Schematics\p1\p1_2-pspicefil
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .05
+
